@@ -1,7 +1,10 @@
 body{
     display: flex;
     flex-direction: column;
+    background-color: blanchedalmond;
 }
+p{
+    color-scheme:rgb(213, 213, 235);}
 
 main{
     display: flex;
@@ -16,3 +19,5 @@ aside{
     flex:1;
     overflow-y: auto;
 }
+
+
