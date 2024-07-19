@@ -133,9 +133,5 @@ class Base():
                 if (getattr(obj, k) != v):
                     return False
             return True
-        try:
-            res = list(filter(_search, DATA[s_class].values()))
-        except Exception:
-            res = []
-
-        return res
+        
+        return list(filter(_search, DATA[s_class].values()))
